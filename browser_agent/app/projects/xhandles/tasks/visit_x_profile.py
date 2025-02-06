@@ -1,7 +1,7 @@
 import asyncio
-from app.celery import celery
-from app.types import WebsiteAnalysisReq
-from app.projects.xhandles.agents.visit_x_profile import create_visit_x_profile_agent
+from browser_agent.app.celery import celery
+from browser_agent.app.projects.xhandles.agents.visit_x_profile import create_visit_x_profile_agent
+from browser_agent.app.projects.xhandles.types import WebsiteAnalysisReq
 
 async def perform_analysis(agent):
 	try:

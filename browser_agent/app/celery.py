@@ -15,9 +15,9 @@ celery = Celery(
 	backend=CELERY_BROKER_URL,
 	broker=CELERY_RESULT_BACKEND,
 	include=[
-		'tasks.projects.xhandles.tasks.search_prospects',
-		'tasks.projects.xhandles.tasks.get_prospect_urls',
-		'tasks.projects.xhandles.tasks.visit_profile',
+		'browser_agent.app.projects.xhandles.tasks.search_x_prospects',
+		'browser_agent.app.projects.xhandles.tasks.get_prospect_urls',
+		'browser_agent.app.projects.xhandles.tasks.visit_x_profile',
 	],
 )
 

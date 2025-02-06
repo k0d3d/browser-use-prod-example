@@ -5,6 +5,9 @@ description = ""
 authors = ["Pxlart Design <michael.rhema@gmail.com>"]
 readme = "README.md"
 package-mode = false
+packages = [
+    { include = "browser_agent" },
+]
 
 [tool.poetry.dependencies]
 python = ">=3.11,<4.0"

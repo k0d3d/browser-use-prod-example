@@ -1,5 +1,5 @@
-from app.celery import celery
 import asyncio
+from browser_agent.app.celery import celery
 
 from browser_agent.app.projects.xhandles.agents.search_x_prospects import create_twitter_prospects_agent
 from browser_agent.app.projects.xhandles.types import SearchProspectsResult

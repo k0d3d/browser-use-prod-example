@@ -1,6 +1,6 @@
 
 import os
-from app.types import AppConfig
+from browser_agent.app.types import AppConfig
 
 
 app_config = AppConfig(

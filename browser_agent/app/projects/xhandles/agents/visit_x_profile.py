@@ -2,9 +2,9 @@ from langchain_openai import ChatOpenAI
 from browser_use import Agent, Controller, ActionResult
 from browser_use.browser.context import BrowserContext
 
-from app.projects.xhandles.prompts.search import visit_analyze_profile_on_twitter
-from app.browsers.browser import main_browser
-from app.config import app_config
+from browser_agent.app.projects.xhandles.prompts.search import visit_analyze_profile_on_twitter
+from browser_agent.app.browsers.browser import main_browser
+from browser_agent.app.config import app_config
 from browser_agent.app.projects.xhandles.types import WebsiteAnalysisReq
 
 controller = Controller()

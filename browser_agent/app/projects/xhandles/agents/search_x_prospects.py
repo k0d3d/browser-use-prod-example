@@ -1,14 +1,12 @@
-import os
-import sys
 
 
-from app.browsers.browser import init_browser
 from langchain_openai import ChatOpenAI
 from browser_use import Agent, Controller, ActionResult
 
-from app.config import app_config
-from app.projects.xhandles.types import SearchProspectsResult
-from app.projects.xhandles.prompts.search import get_search_result_profiles 
+from browser_agent.app.browsers.browser import init_browser
+from browser_agent.app.config import app_config
+from browser_agent.app.projects.xhandles.types import SearchProspectsResult
+from browser_agent.app.projects.xhandles.prompts.search import get_search_result_profiles 
 
 controller = Controller()
 
